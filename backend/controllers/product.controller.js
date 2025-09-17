@@ -105,3 +105,14 @@ export const getRecommendedProducts = async (req, res) => {
         res.status(500).json({ message: "Internal server error", error: error.message })
     }
 }
+
+export const getProdcutsByCategory = async (req, res) => {
+    const { category } = req.params;
+    try {
+        const products = await Product.find({ category });
+        res.json(products);
+    } catch (error) {
+        console.log("Error fetching products by getProdcutsByCategory:", error.message);
+        res.status(500).json({ message: "Internal server error", error: error.message });
+    }
+}
