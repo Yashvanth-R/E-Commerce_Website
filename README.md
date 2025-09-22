@@ -28,6 +28,8 @@ Environment-based configuration with dotenv
 
 🛠 Tech Stack
 
+Frontend: Reactjs
+
 Backend: Node.js, Express.js
 
 Database: MongoDB (via Mongoose)
