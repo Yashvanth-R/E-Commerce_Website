@@ -1,12 +1,12 @@
 
-🛒 E-Commerce Website
+E-Commerce Website
 
 A full-stack e-commerce platform built with Node.js, Express, MongoDB, and Stripe for payments. This project supports secure authentication, product management, order tracking, and cloud storage integration.
 
 
 ---
 
-🚀 Features
+Features
 
 User Authentication & Authorization (JWT + bcryptjs)
 
@@ -26,7 +26,7 @@ Environment-based configuration with dotenv
 
 ---
 
-🛠 Tech Stack
+Tech Stack
 
 Frontend: Reactjs
 
