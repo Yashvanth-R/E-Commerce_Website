@@ -27,6 +27,5 @@ app.use("/api/analytics", analyticsRoutes)
 
 app.listen(PORT, () => {
   console.log('Server is running on http://localhost:' + PORT);
-  // Connect to the database when the server start's
   connectDB();
 });
