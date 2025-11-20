@@ -129,19 +129,6 @@ npm run dev
 ```
 The frontend will run on `http://localhost:5173`
 
-### Building for Production
-
-Build the frontend:
-```bash
-cd frontend
-npm run build
-```
-
-Start the backend in production mode:
-```bash
-npm start
-```
-
 ## License
 
 This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
