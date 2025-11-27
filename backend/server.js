@@ -15,7 +15,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(express.json()); // Middleware to parse JSON bodies
+app.use(express.json({extended:true, limit:'10mb'})); // Middleware to parse JSON bodies
 app.use(cookieParser()); // Middleware to parse cookies
 
 app.use("/api/auth", authRoutes)
